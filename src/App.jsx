@@ -212,7 +212,7 @@ function App() {
       <section id="playlist" className="py-xl bg-[#1DB954]/10 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#1DB954] blur-[150px] opacity-20 pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-container-margin relative z-10">
-          <div className="flex flex-col md:flex-row justify-between items-end mb-xl gap-md">
+          <div className="flex flex-col md:flex-row justify-between items-start mb-xl gap-md">
             <div className="max-w-xl">
               <span className="font-label-caps text-[#1DB954] tracking-widest">WRAPPED 2021-2024</span>
               <h2 className="font-display-lg text-white mt-xs">Nossa Trilha Sonora</h2>
