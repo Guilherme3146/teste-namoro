@@ -121,7 +121,7 @@ function App() {
             <span className="font-label-caps text-primary tracking-[0.3em]">O INÍCIO DE TUDO</span>
             <h2 className="font-headline-md text-white">Onde os compassos se alinharam</h2>
             <p className="font-body-lg text-on-surface-variant">
-              Há três anos, nossas rotas se cruzaram de forma inesperada. O que parecia ser apenas mais um dia comum tornou-se o marco zero da nossa maior aventura. Desde o primeiro café até o silêncio confortável, cada segundo foi um passo em direção ao que somos hoje.
+              Há três anos, nossas rotas se cruzaram de forma inesperada. O que parecia ser apenas mais um dia comum tornou-se o marco zero da nossa maior aventura. Desde o primeiro susto até o primeiro “eu te amo”, cada segundo foi um passo em direção ao que somos hoje.
             </p>
             <div className="flex items-center gap-base text-secondary">
               <span className="material-symbols-outlined" data-icon="auto_awesome">auto_awesome</span>
@@ -309,7 +309,7 @@ function App() {
 
       {/* Footer */}
       <footer className="pt-xl pb-32 text-center text-white/20 font-label-caps text-[10px]">
-        © 2024 NOSSA SINTONIA • PRODUZIDO COM AMOR
+        © 2026 NOSSA SINTONIA • PRODUZIDO COM AMOR
       </footer>
     </div>
   );
