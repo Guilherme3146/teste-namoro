@@ -108,10 +108,10 @@ function App() {
       {/* The Beginning Section */}
       <section id="sintonia" className="py-xl px-container-margin max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-xl items-center">
-          <div className="relative group cursor-pointer" onClick={() => setSelectedImage("/public/image4.jpeg")}>
+          <div className="relative group cursor-pointer" onClick={() => setSelectedImage("/image4.jpeg")}>
             <div className="absolute -inset-2 bg-gradient-to-r from-primary to-secondary opacity-20 blur-xl group-hover:opacity-40 transition-opacity"></div>
             <div className="relative aspect-square rounded-xl overflow-hidden glass-card hover:scale-[1.02] transition-transform duration-300">
-              <img className="w-full h-full object-cover opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-700" src="/public/image4.jpeg" alt="The Beginning" />
+              <img className="w-full h-full object-cover opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-700" src="/image4.jpeg" alt="The Beginning" />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <span className="material-symbols-outlined text-white text-4xl">zoom_in</span>
               </div>
@@ -169,9 +169,9 @@ function App() {
           {/* Big Feature Card */}
           <div 
             className="md:col-span-2 md:row-span-2 relative glass-card rounded-xl overflow-hidden group cursor-pointer hover:scale-[1.01] transition-transform duration-300"
-            onClick={() => setSelectedImage("/public/image1.jpeg")}
+            onClick={() => setSelectedImage("/image1.jpeg")}
           >
-            <img className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-500" src="/public/image1.jpeg" alt="" />
+            <img className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-500" src="/image1.jpeg" alt="" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-lg">
               <span className="font-label-caps text-primary mb-xs">O MOMENTO</span>
               <h3 className="font-headline-sm text-white">Ano novo juntos</h3>
@@ -183,9 +183,9 @@ function App() {
           {/* Smaller Cards */}
           <div 
             className="relative glass-card rounded-xl overflow-hidden group cursor-pointer hover:scale-[1.02] transition-transform duration-300"
-            onClick={() => setSelectedImage("/public/image3.jpeg")}
+            onClick={() => setSelectedImage("/image3.jpeg")}
           >
-            <img className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity" src="/public/image3.jpeg" alt="" />
+            <img className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity" src="/image3.jpeg" alt="" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-md">
               <h4 className="font-headline-sm text-[20px] text-white">Amor desde a infância</h4>
             </div>
@@ -195,9 +195,9 @@ function App() {
           </div>
           <div 
             className="relative glass-card rounded-xl overflow-hidden group cursor-pointer hover:scale-[1.02] transition-transform duration-300"
-            onClick={() => setSelectedImage("/public/image2.jpeg")}
+            onClick={() => setSelectedImage("/image2.jpeg")}
           >
-            <img className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity" src="/public/image2.jpeg" alt="" />
+            <img className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity" src="/image2.jpeg" alt="" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-md">
               <h4 className="font-headline-sm text-[20px] text-white">Primeira Viagem Juntos</h4>
             </div>
@@ -234,7 +234,7 @@ function App() {
               subtitle="Tyler, The Creator"
               duration="3:00"
               isFavorite={true}
-              url="/public/See_You_Again.mp3"
+              url="/See_You_Again.mp3"
               id="track1"
             />
             <AudioTrack 
@@ -245,7 +245,7 @@ function App() {
               subtitle="SILVANNO SALLES"
               duration="3:39"
               isFavorite={false}
-              url="/public/Defeito_Meu.mp3"
+              url="/Defeito_Meu.mp3"
               id="track2"
             />
             <AudioTrack 
@@ -256,7 +256,7 @@ function App() {
               subtitle="RAQUEL DOS TECLADOS"
               duration="2:58"
               isFavorite={false}
-              url="/public/Agora_Estou_Sofrendo.mp3"
+              url="/Agora_Estou_Sofrendo.mp3"
               id="track3"
             />
           </div>
